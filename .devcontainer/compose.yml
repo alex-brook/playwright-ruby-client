@@ -1,0 +1,8 @@
+services:
+  dev:
+    build:
+      dockerfile: Dockerfile
+    command: sleep infinity
+    init: true
+    volumes:
+      - ../:/src
